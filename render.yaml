@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: jcw-estimate-ai
+    name: jcw-estimate
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
